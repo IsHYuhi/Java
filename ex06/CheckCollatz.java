@@ -14,7 +14,7 @@ public class CheckCollatz {
   // Check the conjecture for 1 <= i <= n
   public static boolean check(BigInteger n) {
     // 1~nの全てのパターンを検査している
-    while( n.compareTo(BigInteger.ONE) > 0 ){//引数より大きい時1, 同じ時0, 小さい時-1.
+    while( n.compareTo(BigInteger.ZERO) > 0 ){//引数より大きい時1, 同じ時0, 小さい時-1.
       boolean res = Collatz.getResult(n); // CollatzクラスにgetResult()メソッドを作る。
 
       if (!res){
