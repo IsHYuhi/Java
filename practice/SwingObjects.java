@@ -33,8 +33,8 @@ public class SwingObjects extends JFrame implements ActionListener{
     }
     s = s_item[cmb.getSelectedIndex()];
 
-    String a = "Yes. you were born in "+ b +"; ";
-    a+= "You have " + f +" and";
+    String a = "Yes. you were born in "+ b +": ";
+    a+= "You have " + f +" and ";
     a += "you are living in " + s + ".";
     lbl.setText(a);
   }
