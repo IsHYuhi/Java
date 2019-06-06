@@ -12,7 +12,7 @@ public class TryRecordSort {
 		      new SortableRecord("s5000007",95, 67, 70)
 	    };
 
-    
+
     System.out.println("Original Order: ");
     for (Record v : recrds) System.out.println(v);
 
@@ -21,5 +21,5 @@ public class TryRecordSort {
     System.out.println("\nOrder after sorting using Comparable method: ");
     for (Record v : recrds) System.out.println(v);
  }
-
+ //もしComparatorを作るならここの内部クラスに作る。
 }
