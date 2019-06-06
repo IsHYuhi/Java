@@ -27,8 +27,8 @@ public class GenericExam {
     //s = (String)v_p.get(0); //7
     p = v_p.get(0);
     //i = (int)v_p.get(0); //8
-    //s = (String)v.get(1); //9 //実行時エラー
-    //p = (Point)v.get(2); //10 //実行時エラー
+    //s = (String)v.get(0); //9 //実行時エラー
+    //p = (Point)v.get(0); //10 //実行時エラー
     i = (int)v.get(0);//元がint型なのでgetできる。
   }
 }
